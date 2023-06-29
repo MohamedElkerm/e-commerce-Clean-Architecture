@@ -31,7 +31,7 @@ ThemeData getApplicationTheme() {
       ),
     ),
     buttonTheme: ButtonThemeData(
-      shape: StadiumBorder(),
+      shape:const StadiumBorder(),
       disabledColor: ColorManager.grey1,
       buttonColor: ColorManager.primary,
       splashColor: ColorManager.lightPrimary,
